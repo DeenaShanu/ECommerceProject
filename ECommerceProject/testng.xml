@@ -7,11 +7,11 @@
 	<test name="ChromeTest">
 	
 		<classes>
-			<class name="testscripts.AdminUsersTest">
-			<methods>
-					<include name="addNewUserDetails"></include>
-				</methods>
-			</class>
+			<class name="testscripts.AdminUsersTest"></class>
+			<class name="testscripts.HomeTest"></class>
+			<class name="testscripts.LoginTest"></class>
+			
+			
 		</classes>
 	</test>
 
