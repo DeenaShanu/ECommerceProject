@@ -24,7 +24,7 @@ public class Base {
 		driver.manage().window().maximize();
 	}
 
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public void quit() {
 		//driver.close();
 	}
